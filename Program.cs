@@ -18,9 +18,7 @@ namespace Prg_12Mar21
 
             // я мог бы это всё сделать используя 2 переменный, но на всякий случай сделал больше
             string name;
-            int age;
             int sex; //это пол
-            int nrav;
             int ck_uvlecheniya;
 
 
@@ -86,7 +84,8 @@ namespace Prg_12Mar21
             Console.WriteLine("\nТебе нравится пить пиво?");
             Console.Write("{1. да\\2. да}:"); ck_uvlecheniya = 1;
             if (ck_uvlecheniya == 1) Console.WriteLine("ха!");
-
+            
+            //пункт 5
             Console.WriteLine("\nТебе нравится твой код?");
             Console.Write("{1. да\\2. нет}:"); ck_uvlecheniya = (Convert.ToInt32(Console.ReadLine()));
             if (ck_uvlecheniya == 1) Console.WriteLine("Ты молодец!");
